@@ -1,0 +1,94 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: lightyellow;
+}
+header{
+  padding: 50px 20px 20px;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
+  padding-bottom: 20px;
+}
+.name > h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name > h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: darkgrey;
+}
+.phone, .mail {
+  font-size: 12px;
+  color: gray;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: dimgrey;
+}
+.photo {
+  padding-bottom: 20px;
+}
+
+.photo > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.main {
+  padding: 0 20px;
+}
+.main > section {
+  padding-bottom: 30px;
+}
+.about > p {
+  font-size: 13px;
+  color: rgb(58, 58, 58);
+  padding: 0 20px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  font-size: 13px;
+  color: rgb(58, 58, 58);
+}
+.portfolio {
+  padding-bottom: 40px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color:lightgray;
+}
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  flex-basis: 20%;
+}
+.rs > img, .youtube > img {
+  margin-bottom: 5px
+};
